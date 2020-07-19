@@ -66,7 +66,7 @@ console.log(error);
 
           <div className='buttons'>
           <CustomButton type='submit'> Sign in </CustomButton>
-          <CustomButton onClick={signInWithGoogle} isGoogleSignIn> 
+          <CustomButton type='submit' onClick={signInWithGoogle} isGoogleSignIn> 
           {' '}
           Sign in with Google {' '} 
           </CustomButton>
