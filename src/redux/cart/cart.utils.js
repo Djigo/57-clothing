@@ -1,6 +1,3 @@
-import { createTypePredicateNodeWithModifier } from "typescript"
-import cartReducer from "./cart.reducer"
-
 export const addItemToCart = (cartItems,cartItemToAdd) => {
     const existingCartItem = cartItems.find(
         cartItem => cartItem.id === cartItemToAdd.id
